@@ -7,9 +7,7 @@ import Link from 'next/link'
 
 export default function Window({openWindow, header}) {
 
-    //console.log(header)
-
-    return (
+   return (
         <>
         <div className={styles.popup}>
             <div className={styles.popup__content}>
@@ -20,7 +18,6 @@ export default function Window({openWindow, header}) {
                 <div className={styles.popup__input} placeholder="Дата документа">{}</div>
             </form>
             </div>
-        
         </div>
         </>
     )
