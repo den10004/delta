@@ -14,8 +14,22 @@ body {
 
 .backgroundHeader {
   background: url(../images/background.png);
-  height: 1086px;
+  height: 1065px;
+  background-repeat: no-repeat;
 }
+
+@media screen and (max-width: 1280px) {
+  .backgroundHeader {
+    background: url(../images/background1280.png);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .backgroundHeader {
+    background: url(../images/background425.png);
+  }
+}
+
 
 .block {
   width: 1183px;
