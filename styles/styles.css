@@ -2,15 +2,23 @@
 @import "./main.css";
 @import "./tioga.css";
 @import "./about.css";
+@import "./footer.css";
 @import "./normalize.css";
 @import "../vendor/fonts.css";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
   margin: 0 auto;
   padding: 0;
   max-width: 1920px;
 }
+
 
 .backgroundHeader {
   background: url(../images/background.png);
