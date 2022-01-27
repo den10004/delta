@@ -27,9 +27,6 @@
   }
 }
 
-.questions-blockRight {
-}
-
 .questions-blockRight > h3 {
   width: 480px;
   font-family: "Roboto";
@@ -96,7 +93,7 @@
     grid-template-areas:
       "inputSmall"
       "inputSmall2"
-      "inputSmall3" 
+      "inputSmall3"
       "inputSmall4"
       "inputBig";
     grid-template-columns: 1fr;
@@ -165,12 +162,11 @@
   margin-top: 20px;
 }
 
-
 @media screen and (max-width: 375px) {
-    .questions-blockLeft-comments {
-     flex-direction: column;
-    }
+  .questions-blockLeft-comments {
+    flex-direction: column;
   }
+}
 
 .questions-blockLeft-comments > h6 {
   font-family: "Roboto";
@@ -197,10 +193,9 @@
   cursor: pointer;
 }
 
-
 @media screen and (max-width: 375px) {
-    .questions-blockLeft-button {
+  .questions-blockLeft-button {
     margin-top: 10px;
     width: 100%;
-    }
   }
+}
