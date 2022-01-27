@@ -40,7 +40,6 @@
   margin: 0;
 }
 
-
 @media screen and (max-width: 1024px) {
   .tioga > h4 {
     top: 20%;
@@ -79,7 +78,6 @@
   }
 }
 
-
 @media screen and (max-width: 1024px) {
   .tioga__description {
     position: relative;
@@ -93,8 +91,6 @@
     width: 80%;
   }
 }
-
-
 
 .tioga__description > h3 {
   font-weight: 300;
@@ -131,5 +127,42 @@
   .tioga__description > h4 {
     font-size: 14px;
     line-height: 17px;
+  }
+}
+
+/*********** 2 блок ***************************/
+
+.tioga-wrapper {
+  margin-top: 130px;
+  padding-bottom: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .tioga-wrapper {
+    margin-top: 30px;
+  }
+}
+
+.tioga-wrapper > h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .tioga-wrapper > h4 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .tioga-wrapper > h4 {
+    font-size: 16px;
   }
 }

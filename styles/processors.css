@@ -1,0 +1,134 @@
+.propcessors {
+  width: 1300px;
+  margin: 130px auto 0;
+  padding-bottom: 50px;
+}
+
+@media screen and (max-width: 1380px) {
+  .propcessors {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    .propcessors {
+        margin: 0px auto 0;
+    }
+  }
+
+
+.propcessors > img {
+  width: 100%;
+  height: auto;
+}
+
+.propcessors > h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .propcessors > h4 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+    .propcessors > h4 {
+        font-size: 16px;
+    }
+  }
+
+.propcessors__headline {
+  display: flex;
+  width: 1077px;
+  justify-content: space-between;
+  margin: 162px 0px 50px 0;
+}
+
+@media screen and (max-width: 1380px) {
+  .propcessors__headline {
+    width: 95%;
+    margin: 62px 0px 62px 0;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .propcessors__headline {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 425px) {
+    .propcessors__headline {
+        margin: 30px 0px 30px 0;
+    }
+  }
+  
+
+.propcessors__headline-block {
+  width: 467px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 660px) {
+  .propcessors__headline-block {
+    width: 100%;
+  }
+}
+
+.propcessors__headline-block > h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1024px) {
+  .propcessors__headline-block > h3 {
+    font-size: 24px;
+  }
+}
+
+.propcessors__headline-block > h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  margin-top: 28px;
+  line-height: 30px;
+}
+
+@media screen and (max-width: 500px) {
+    .propcessors__headline-block > h4 {
+        font-size: 14px;
+        line-height: 15px;
+    }
+  }
+
+.propcessors__headline > img {
+  height: 98px;
+}
+
+@media screen and (max-width: 660px) {
+  .propcessors__headline > img {
+    width: 98px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+    .propcessors__headline > img {
+      width: 50px;
+      height: 50px;
+      margin-top: 10px;
+    }
+  }
